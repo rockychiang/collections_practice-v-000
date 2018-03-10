@@ -42,5 +42,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  array.each_with_index.map do |i, j|
+    if j != 1
+      i << "s"
+  end
 end
