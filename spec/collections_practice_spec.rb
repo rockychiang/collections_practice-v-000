@@ -31,7 +31,11 @@ describe 'collections practice' do
   end
   
   # Question 4.5
-  describe ''
+  describe 'swap_elements_from_to' do
+    it 'swap the index of the element to a new index' do
+      expect(swap_elements_from_to([1,2,3,4,5,6,7,8,9],2,5)).to eq([1,2,6,4,5,3,7,8,9])
+    end
+  end
 
   # Question 5
   describe '#reverse_array' do
