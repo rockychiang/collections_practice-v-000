@@ -43,6 +43,6 @@ end
 
 def add_s(array)
   array.each_with_index.map do |i, j|
-    i << "s" if j != 1
+    j != 1 ? i << "s" : i
   end
 end
