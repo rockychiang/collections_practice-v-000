@@ -16,3 +16,5 @@ def swap_elements(array)
   temp = array.delete_at(2)
   array.insert(1,temp)
 end
+
+def swap_elements_from_to(array,from,to)
