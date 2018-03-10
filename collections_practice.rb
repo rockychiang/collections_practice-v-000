@@ -29,5 +29,6 @@ def kesha_maker(array)
   array.map do |i|
     a = i.split("")
     a[2] = "$"
+    a.join
   end
 end
